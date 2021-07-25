@@ -37,8 +37,7 @@ header .navbar-light .navbar-nav .nav-link {
 
 /* sponsorship area  */
 .sponsorship {
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    box-shadow: 0px 1px 3px #e8e2e2, 0px -1px 3px #fffefe;
 }
 .sponsorship ul {
     margin: 0;
