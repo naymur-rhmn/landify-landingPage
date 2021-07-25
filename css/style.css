@@ -111,3 +111,122 @@ header .navbar-light .navbar-nav .nav-link {
     font-size: 16px;
     opacity: .4;
 }
+
+/* stats section  */
+.stats-section {
+    padding:  82px 0;
+}
+.stats-title h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.stats-title {
+    font-size: 18px;
+}
+.stats-icon{
+    font-size: 32px;
+    color: #2EC5CE;
+    margin-right: 15px;
+}
+.stats-count {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* second feature section  */
+.second-feature-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.second-feature-content {
+    font-size: 18px;
+    line-height: 32px;
+}
+.custom-btn {
+    color: #8C30F5;
+    text-decoration: none;
+}
+
+/* third feature section  */
+.third-feature h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* cta section  */
+.cta-section {
+    background: #2EC5CE;
+}
+
+.cta-content {
+    font-size: 18px;
+}
+.cta-image {
+    position: relative;  
+    height: 585px;
+}
+.cta-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.cta-content h4 {
+    font-weight: 500;
+    font-size: 18px;
+}
+.cta-image-2 {
+    position: relative;  
+}
+.cta-image::before {
+    position: absolute;
+    background-image: url(../img/phone-mockup-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 232px;
+    height: 416px;
+    top: 0;
+    left: 0;
+    content: "";
+}
+.cta-image-2::after {
+    position: absolute;
+    background-image: url(../img/phone-mockup-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 232px;
+    height: 416px;
+    bottom: 0;
+    right: 0;
+    content: "";
+} 
+
+/* footer area  */
+footer {
+    padding: 56px 0;
+}
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 24px;
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    display: block;
+    color: azure;
+}
+h4.text-white {
+    font-size: 18px;
+    color: azure;
+}
+.copyright {
+    color: azure;
+    font-size: 14px;
+    margin-bottom: 0;
+}
