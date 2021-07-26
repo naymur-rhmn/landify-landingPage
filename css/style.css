@@ -3,7 +3,11 @@
 
 
 /* base styles  */
-
+Html,body{
+    overflow-x: hidden;
+    overflow-y: auto; 
+}
+    
 body{
     font-family: 'Inter', sans-serif;
 }
