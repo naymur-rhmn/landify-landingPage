@@ -3,6 +3,7 @@
 
 
 /* base styles  */
+
 body{
     font-family: 'Inter', sans-serif;
 }
@@ -33,6 +34,12 @@ header .navbar-light .navbar-nav .nav-link {
 }
 .boxed-btn:hover {
     color: white;
+    background-color: #2EC5CE;
+    transition: .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2EC5CE !important;
 }
 
 /* sponsorship area  */
@@ -146,6 +153,10 @@ header .navbar-light .navbar-nav .nav-link {
     color: #8C30F5;
     text-decoration: none;
 }
+.custom-btn:hover {
+    color: #2EC5CE;
+    transition: .3s;
+}
 
 /* third feature section  */
 .third-feature h2 {
@@ -161,10 +172,7 @@ header .navbar-light .navbar-nav .nav-link {
 .cta-content {
     font-size: 18px;
 }
-.cta-image {
-    position: relative;  
-    height: 585px;
-}
+
 .cta-content h2 {
     font-size: 48px;
     font-weight: 700;
@@ -173,6 +181,18 @@ header .navbar-light .navbar-nav .nav-link {
 .cta-content h4 {
     font-weight: 500;
     font-size: 18px;
+}
+
+.cta-apps-img {
+    height: 585px;
+    display: flex;
+}
+.img-2 {
+    align-self: flex-end;
+}
+/* .cta-image {
+    position: relative;  
+    height: 585px;
 }
 .cta-image-2 {
     position: relative;  
@@ -200,7 +220,7 @@ header .navbar-light .navbar-nav .nav-link {
     bottom: 0;
     right: 0;
     content: "";
-} 
+}  */
 
 /* footer area  */
 footer {
@@ -228,4 +248,34 @@ h4.text-white {
     color: azure;
     font-size: 14px;
     margin-bottom: 0;
+}
+
+
+/* responsive styles */
+@media screen and (max-width: 991px) {
+    .second-feature-content {
+        margin-top: 40px;
+        padding-left: 0 !important;
+    }
+    .text-white {
+        margin-top: 25px;
+    }
+    .testimonial-title::before {
+        top: -35px;
+        left: -20px;
+        font-size: 60px;
+    }
+    .testimonial-item.testimonial-mt {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .testimonial-item {
+        border-radius: 0px;
+    }
+    .testimonial-title::before {
+        top: -60px;
+        left: 0px;
+    }
 }
